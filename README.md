@@ -1,6 +1,6 @@
 # skaglobal.github.io redirect
 
-This tiny user-site redirects visitors from the root user site to the project site at `/my_cards/`, preserving query parameters and hash fragments.
+This tiny user-site redirects visitors from the root user site to the project site at `/skaglobal/`, preserving query parameters and hash fragments.
 
 ## How to set up
 
@@ -10,7 +10,7 @@ This tiny user-site redirects visitors from the root user site to the project si
 
 2) Copy these files into the repo (or upload the provided ZIP):
 
-- `index.html` — immediate redirect to `https://skaglobal.github.io/my_cards/`
+- `index.html` — immediate redirect to `https://skaglobal.github.io/skaglobal/`
 - `404.html` — fallback redirect for unknown paths
 
 3) Enable GitHub Pages for the repo:
@@ -18,7 +18,7 @@ This tiny user-site redirects visitors from the root user site to the project si
 - Settings → Pages → Build and deployment → Source: **Deploy from a branch**
 - Branch: **main**, Folder: **/** (root)
 
-GitHub Pages will deploy in under a minute. Visiting `https://skaglobal.github.io` will then forward to `https://skaglobal.github.io/my_cards/`.
+GitHub Pages will deploy in under a minute. Visiting `https://skaglobal.github.io` will then forward to `https://skaglobal.github.io/skaglobal/`.
 
 ### Optional
 - If you later add a custom domain, this redirect still works.
